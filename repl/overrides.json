@@ -1,7 +1,8 @@
 {
     "@jupyterlab/application-extension:main": {
         "shell": {
-            "headerVisible": false
+            "headerVisible": false,
+            "mode": "zen"
         }
     },
     "@jupyterlab/console-extension:tracker": {
