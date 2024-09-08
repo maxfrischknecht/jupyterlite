@@ -1,19 +1,10 @@
 {
-    "@jupyterlab/notebook-extension:panel": {
-        "toolbar": [
-            {
-                "name": "download",
-                "label": "Download",
-                "args": {},
-                "command": "docmanager:download",
-                "icon": "ui-components:download",
-                "rank": 50
-            }
-        ]
-    },
     "@jupyterlab/application-extension:main": {
         "shell": {
             "headerVisible": false
         }
+    },
+    "@jupyterlab/console-extension:tracker": {
+        "interactionMode": "terminal"
     }
 }
